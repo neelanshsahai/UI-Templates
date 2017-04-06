@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_item"
+            android:checkable="true"
+            android:icon="@drawable/ic_android"
+            android:title="Home"/>
+        <item
+            android:id="@+id/theme_item"
+            android:checkable="true"
+            android:icon="@drawable/ic_theme"
+            android:title="Theme"/>
+    </group>
+    <item
+        android:id="@+id/group2"
+        android:title="Material Highlights">
+        <menu>
+            <item
+                android:id="@+id/toolbar_item"
+                android:checkable="true"
+                android:icon="@drawable/ic_toolbar"
+                android:title="Toolbar"/>
+            <item
+                android:id="@+id/tabs_item"
+                android:checkable="true"
+                android:title="Material Tabs"
+                android:icon="@mipmap/ic_launcher"/>
+            <item
+                android:id="@+id/fab_item"
+                android:checkable="true"
+                android:title="FAB"
+                android:icon="@mipmap/ic_launcher"/>
+            <item
+                android:id="@+id/dialogs_item"
+                android:checkable="true"
+                android:title="Dialogs"
+                android:icon="@mipmap/ic_launcher"/>
+            <item
+                android:id="@+id/rview_item"
+                android:checkable="true"
+                android:title="Recycler Views"
+                android:icon="@mipmap/ic_launcher"/>
+            <item
+                android:id="@+id/bottomsheet_item"
+                android:checkable="true"
+                android:title="BotomSheet"
+                android:icon="@mipmap/ic_launcher"/>
+            <item
+                android:id="@+id/materialscrollbar_item"
+                android:checkable="true"
+                android:title="Material Scrolbar"
+                android:icon="@mipmap/ic_launcher"/>
+            <item
+                android:id="@+id/searchview_item"
+                android:checkable="true"
+                android:title="Search View"
+                android:icon="@mipmap/ic_launcher"/>
+            <item
+                android:id="@+id/picker_item"
+                android:checkable="true"
+                android:title="Material Picker"
+                android:icon="@mipmap/ic_launcher"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/group3"
+        android:title="Android Patterns">
+        <menu>
+            <item
+                android:id="@+id/intro_item"
+                android:checkable="true"
+                android:title="App Intro"
+                android:icon="@mipmap/ic_launcher"/>
+            <item
+                android:id="@+id/login_item"
+                android:checkable="true"
+                android:title="Login"
+                android:icon="@mipmap/ic_launcher"/>
+            <item
+                android:id="@+id/swipe_item"
+                android:checkable="true"
+                android:title="Swipeable Layout"
+                android:icon="@mipmap/ic_launcher"/>
+            <item
+                android:id="@+id/bubbles_item"
+                android:checkable="true"
+                android:title="Bubbles"
+                android:icon="@mipmap/ic_launcher"/>
+            <item
+                android:id="@+id/achievements_item"
+                android:checkable="true"
+                android:title="Achievements"
+                android:icon="@drawable/ic_star"/>
+            <item
+                android:id="@+id/pull_item"
+                android:checkable="true"
+                android:title="Pull to Refresh"
+                android:icon="@drawable/ic_pull"/>
+            <item
+                android:id="@+id/lview_item"
+                android:checkable="true"
+                android:title="List View"
+                android:icon="@mipmap/ic_launcher"/>
+            <item
+                android:id="@+id/tview_item"
+                android:checkable="true"
+                android:title="Text Views"
+                android:icon="@mipmap/ic_launcher"/>
+            <item
+                android:id="@+id/ui_item"
+                android:checkable="true"
+                android:title="UI Elements"
+                android:icon="@drawable/ic_ui"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/group4"
+        android:title="Bonus">
+        <menu>
+            <item
+                android:id="@+id/sweetsheet_item"
+                android:checkable="true"
+                android:title="Sweet Sheet"
+                android:icon="@drawable/ic_sheets"/>
+            <item
+                android:id="@+id/shareview_item"
+                android:checkable="true"
+                android:title="Share View"
+                android:icon="@drawable/ic_share"/>
+            <item
+                android:id="@+id/textsurface"
+                android:checkable="true"
+                android:title="Text Surface"
+                android:icon="@mipmap/ic_launcher"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/group5"
+        android:title="About">
+        <menu>
+            <item
+                android:id="@+id/resume_item"
+                android:checkable="true"
+                android:title="Resume"
+                android:icon="@drawable/ic_pencil"/>
+        </menu>
+    </item>
+</menu>
